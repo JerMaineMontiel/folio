@@ -1,0 +1,82 @@
+
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin: 0px;
+    z-index: 0;
+}
+
+h1{
+    font-size: 3em;
+}
+
+#photo img{
+    display: inline;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+}
+
+.intro{
+    color: white;
+    height: 100vh;
+    display: block;
+    position: relative;
+    background-color: #8C3293;
+    top: 0;
+}
+
+.about #photo img{
+    height: 500px;
+    width: 500px;
+}
+
+#down-arrow{
+    z-index: 1;
+    display: block;
+    position: fixed;
+    bottom: 0vh;
+    right: 0vh;
+}
+
+#down-arrow img{
+    height: 60px;
+    width: 60px;
+}
+
+#intro-content{
+      padding-top: 20vh;
+}
+
+.about{
+    height: 100vh;
+    display: block;
+    position: relative;
+}
+
+#about-content{
+    padding-top: 20vh;
+}
+.hobbies-interests{
+    height: 100vh;
+    display: block;
+    position: relative;
+}
+
+#hob-int-content{
+    padding-top: 20vh;
+}
+
+
+.resume {
+    font-size: .75em;
+    width: 1000px;
+    display: block;
+   margin: auto;
+    text-align: left;
+}
+
+#objective{
+    text-align: center;
+}

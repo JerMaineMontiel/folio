@@ -58,6 +58,7 @@ h1{
 #about-content{
     padding-top: 20vh;
 }
+
 .hobbies-interests{
     height: 100vh;
     display: block;
@@ -70,11 +71,25 @@ h1{
 
 
 .resume {
-    font-size: .75em;
     width: 1000px;
     display: block;
    margin: auto;
+}
+
+#credentials{
     text-align: left;
+}
+
+ul{
+    display: block;
+}
+
+#resume-content{
+    padding-top: 10vh;
+}
+
+#credentials{
+    font-size: .75em;
 }
 
 #objective{

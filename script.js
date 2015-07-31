@@ -3,8 +3,6 @@ var iWinWidth = 0;
 
 function scrollDown(){
     
-    $('#down-arrow').fadeOut('fast');
-    
     switch(num)
     {
         case 1:
@@ -27,6 +25,7 @@ function scrollDown(){
             }, 1000);
             num++;
             break;
+        case 4:
         default:
             break;
     }
@@ -45,19 +44,13 @@ function doFade()
             $("#down-arrow").delay(1000).fadeIn('slow');
             break;
         case 2:
-            $('#down-arrow').hide();
             $('.about #photo').hide();
             $('.about #photo').delay(500).fadeIn('slow');
-            $('#down-arrow').delay(2000).fadeIn('slow');
             break;
         case 3:
-            $('#down-arrow').hide();
             $('.hobbies-interests #photo').hide();
             $('.hobbies-interests #photo').delay(500).fadeIn();
-            $('#down-arrow').delay(2000).fadeIn('slow');
             break;
-        case 4:
-            $('#down-arrow').fadeOut('fast');
         default:
             break;
             
@@ -65,12 +58,20 @@ function doFade()
 }
 
 $(document).ready(function () {
-
+    
+    $(window).scrollTop();
     doFade();
     
     $('#down-arrow').click( function(){
         scrollDown();
-        doFade();
+        if( num < 4)
+        {
+            doFade();
+        }
+        if ( num == 4 )
+        {
+            $('#down-arrow').fadeOut('fast');
+        }
     });
     
    $(window).on( 'scroll', function(){
@@ -80,10 +81,6 @@ $(document).ready(function () {
             $("#down-arrow").show();          
         }
    });
-    
-    $(window).onbeforeunload(function(){
-        $(this).scrollTop();
-    });
     
 });
 

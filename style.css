@@ -38,6 +38,7 @@ h1{
     position: fixed;
     bottom: 0vh;
     right: 0vh;
+    min-width: 48px;
 }
 
 #down-arrow img{
@@ -71,13 +72,16 @@ h1{
 
 
 .resume {
-    width: 1000px;
+    width: 70%;
     display: block;
    margin: auto;
 }
 
 #credentials{
+    font-size: .75em;
     text-align: left;
+    position: relative;
+    margin: 0 auto;
 }
 
 ul{
@@ -85,13 +89,38 @@ ul{
 }
 
 #resume-content{
-    padding-top: 10vh;
-}
-
-#credentials{
-    font-size: .75em;
+    
 }
 
 #objective{
     text-align: center;
+}
+
+@media screen and (max-width:400px){
+    
+    body{
+        font-size: 1em;
+    }
+    
+    #resume-content{
+        padding-top: 5vh;
+    }
+    .resume{
+        font-size: .75em;
+    }
+    #credentials{
+        font-size: .5em;
+    }
+    
+    #photo img{
+    display: inline;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+    
+    .about #photo img{
+    height: 250px;
+    width: 250px;
+    }
 }

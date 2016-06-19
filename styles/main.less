@@ -16,10 +16,6 @@ body{
         }
     }
 
-.hobbies-interests h3{
-    padding: 0 20%;
-}
-
     .greeting{
         height: 100vh;
         display: flex;
@@ -33,12 +29,14 @@ body{
     }
 
 .about-me{
+    
     height: 800px;
     color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
     .about-me-text{
         display: flex;
         align-items: center;
@@ -52,6 +50,42 @@ body{
             width: 60%;
         }
     }
+    
+     @media screen and (max-width: 736px){
+            height: 400px;
+         h2{
+            font-size: 1em;
+        }
+    }
+}
+
+.hobbies-interests{ 
+    
+    h3{
+    padding: 0 20%;
+    }
+    
+    @media screen and (max-width: 736px){
+        
+        h2{
+            font-size: 1.5em;
+        }
+        
+        h3{
+            padding: 0 10%;
+            font-size: 1.25em;
+        }
+    }
+}
+
+    
+#objective{
+            
+        @media screen and (max-width: 736px){
+            padding: 0 5%;
+            font-size: 1em;
+        }
+
 }
 
 .thumbs{
@@ -69,24 +103,6 @@ body{
 .experience-education{
     h2, h3{
         text-align: left;
-    }
-}
-
-@media screen and (max-width: 991px){
-    h2{
-        font-size: 2em;
-    }
-    
-    h3{
-        font-size: 1.5em;
-    }
-    
-    h4{
-        font-size: 1.25em;
-    }
-    
-    p{
-        font-size: 1em;
     }
 }
 

@@ -1,0 +1,18 @@
+body{
+  background-color: #082567;
+  color: #f3f6fb;
+
+  border: 5px solid #f3f6fb;
+}
+
+a{
+  color: #01e3ae;
+}
+
+li{
+  list-style: none;
+}
+
+h1{
+  text-align: center;
+}

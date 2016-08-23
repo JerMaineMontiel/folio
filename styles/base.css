@@ -16,3 +16,19 @@ li{
 h1{
   text-align: center;
 }
+
+@@media screen and (max-width=414px) {
+
+h1{
+  font-size: 1.5em;
+}
+
+h2{
+  font-size: 1.25em;
+}
+
+p{
+  font-size: 1em;
+}
+
+}

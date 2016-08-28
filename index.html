@@ -1,14 +1,33 @@
-<html>
+<html ng-app="folioApp">
 <head>
-  <title>jer'maine montiel</title>
+  <title>jm</title>
   <!--STYLESHEETS-->
+  <link href="https://fonts.googleapis.com/css?family=Biryani:900|Roboto" rel="stylesheet"> <!--fonts-->
   <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="styles/base.css">
-  <meta name="viewport" content="width=device-width, intial-scale=1">
+  <link rel="stylesheet/less" type="text/css" href="styles/base.less">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!--SCRIPTS-->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="scripts/angular-animate.min.js" type="text/javascript"></script>
+  <script src="scripts/angular-route.min.js" type="text/javascript"></script>
+  <script src="scripts/main.js" type="text/javascript"></script>
 </head>
-<body>
-  <div class="container">
-    <img src="">
-</div>
+<body ng-controller="MainController">
+  <div id="home">
+    <div class="container">
+      <img id="logo" src="assets/logo.png">
+      <ul>
+        <li><a href="#content"><h1>DEVELOPER</h1></a></li>
+        <li><a href="#content"><h1>PHOTOGRAPHER</h1></a></li>
+        <li><a href="#content"><h1>DESIGNER</h1></a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div id="content">
+    <div ng-view></div>
+  </div>
 </body>
 </html>

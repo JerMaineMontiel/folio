@@ -8,25 +8,37 @@ body{
     font-family: 'Biryani', sans-serif;
     font-weight: 900;
   }
+  
+  h2{
+    font-weight: 700;
+  }
+  
+  h3{
+    font-weight: 500;
+  }
     
 }
 
 #logo{
   width: 200px;
   display: block;
-  margin: 20px auto;
+  margin: 20% auto;
 }
 
 #home{
   height: 100vh;
-  background-color: #082567;
+  background-color: #252525;
   
   a:link{
-    color: #0E376F;
+    color: #333333;
   }
   
-  a:hover {
+  a:hover, a:active{
     color: #f3f6fb;
+    text-decoration: none;
+  }
+  
+  a:focus{
     text-decoration: none;
   }
   
@@ -47,5 +59,131 @@ body{
   h1{
     font-size: 5em;
     margin: 0 auto;
+    
+    @media screen and (max-width: 768px){
+      font-size: 1.75em;
+    }
+  }
+}
+
+//STYLING FOR RESUME TEMPLATE
+.resume{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+
+  h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #photo{
+    height: 100%;
+    padding: 0;
+    background-image: url('../assets/headshot.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    @media screen and (max-width: 768px){
+      //make this go away on tablets/phones
+      height: 0;
+      visibility: hidden;
+    }
+  }
+  
+  #creds{
+    height: 100%;
+    padding: 0 30px;
+    
+    @media screen and (max-width: 768px){
+      padding: 0 10px;
+    }
+    
+    #thumb{
+      width: 0;
+      
+      @media screen and (max-width: 768px){
+        //make this appear on tablets/phones
+        width: 150px;
+        display: block;
+        margin: 20px auto;
+      }
+    }
+    
+    #indent{
+      margin: 0 20px;
+      margin-bottom: 30px;
+      
+    }
+    
+    h4{
+      padding-top: 10px;
+    }
+    
+    
+  }
+  
+  span{
+    //special highlighting for keywords
+    padding: 1px;
+    background: #252525;
+    color: #01e3ae;
+  }
+  
+  span:hover{
+    color: #f3f6fb;
+  }
+  
+}
+
+//STYLES FOR PHOTO GALLERY
+.photos{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  
+  h2{
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    margin: 5% 20%;
+  }
+  
+  .gallery{
+    column-count: 4;
+    column-gap: 10px;
+    margin: 0 10px;
+  }
+  
+    img{
+      display: inline-block;
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+  @media screen and (max-width: 768px){
+    h2{
+      font-size: 1em;
+    }
+    
+    .gallery{
+      column-count: 3;
+      column-gap: 4px;
+      margin: 0 4px;
+      
+      img{
+        margin: 2px 0;
+      }
+    }
+ 
+  }
+  
+  span{
+    //special highlighting for keywords
+    padding: 2px;
+    background: #252525;
+    color: #01e3ae;
   }
 }

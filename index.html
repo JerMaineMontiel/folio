@@ -1,8 +1,10 @@
+<!DOCTYPE html>
 <html ng-app="folioApp">
 <head>
   <title>jm</title>
   <!--STYLESHEETS-->
-  <link href="https://fonts.googleapis.com/css?family=Biryani:900|Roboto" rel="stylesheet"> <!--fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Biryani:900|Roboto:400,500,700" rel="stylesheet">
+  <!--fonts-->
   <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
   <link rel="stylesheet/less" type="text/css" href="styles/base.less">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,24 +12,24 @@
   <!--SCRIPTS-->
   <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-  <script src="scripts/angular-animate.min.js" type="text/javascript"></script>
-  <script src="scripts/angular-route.min.js" type="text/javascript"></script>
-  <script src="scripts/main.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
+  <script src="scripts/app.js" type="text/javascript"></script>
 </head>
-<body ng-controller="MainController">
+<body ng-controller="mainController">
   <div id="home">
     <div class="container">
       <img id="logo" src="assets/logo.png">
       <ul>
-        <li><a href="#content"><h1>DEVELOPER</h1></a></li>
-        <li><a href="#content"><h1>PHOTOGRAPHER</h1></a></li>
-        <li><a href="#content"><h1>DESIGNER</h1></a></li>
+        <li><a href="#resume"><h1>SOFTWARE DEVELOPER</h1></a></li>
+        <li><a href="#photos"><h1>PHOTOGRAPHER</h1></a></li>
+        <li><a href="#design"><h1>DESIGNER</h1></a></li>
       </ul>
     </div>
   </div>
   
   <div id="content">
-    <div ng-view></div>
+    <ng-view></ng-view>
   </div>
 </body>
 </html>

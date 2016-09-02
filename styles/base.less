@@ -26,7 +26,7 @@ body{
 }
 
 #home{
-  height: 100vh;
+  height: 96vh;
   background-color: #252525;
   
   a:link{
@@ -63,6 +63,32 @@ body{
     @media screen and (max-width: 768px){
       font-size: 1.75em;
     }
+  }
+}
+
+footer{
+  background-color: #252525;
+  color: #f3f6fb;
+  margin: 0 auto;
+  height: 4vh;
+  text-align: center;
+  
+  p{
+    
+    margin: 0;
+    
+    a{
+    color: #01e3ae;
+  }
+  
+  a:hover, a:active{
+    color: #f3f6fb;
+    text-decoration: none;
+  }
+  
+  a:focus{
+    text-decoration: none;
+  }
   }
 }
 
@@ -186,4 +212,29 @@ body{
     background: #252525;
     color: #01e3ae;
   }
+}
+
+//STYLES FOR DESIGN GALLERY
+.design-gallery{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  
+  margin: 5%;
+  
+  #item{
+    padding: 10px;
+    display: block;
+    width: 33.3%;
+
+    img{
+      width: 100%;
+    }
+  }
+  
+  
+  
 }

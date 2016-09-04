@@ -1,9 +1,18 @@
-<div class="photos container">
-  <h2>I'm mostly a portrait/lifestyle photographer. I enjoy capturing people in their comfortable, most honest selves.</h2>
+<div id="photos" class='page'>
+  <nav class="nav navbar-inverse">
+        <ul class="nav navbar-nav">
+          <a class="navbar-brand" href="#/"><img src="../assets/logo.png"></a>
+          <li><a href="#resume">DEVELOPER</a></li>
+          <li><a href="#photos">PHOTOGRAPHER</a></li>
+          <li><a href="#design">DESIGNER</a></li>
+        </ul>
+      </nav>
+  <div class="photos container">
+    <h2>I'm mostly a portrait/lifestyle photographer. I enjoy capturing people in their comfortable, most honest selves.</h2>
 
-  <div class="gallery">
-      <div id="photo" ng-repeat="photo in portraits"><img src="{{photo}}"/></div>
-      <div id="photo" ng-repeat="photo in dfwphotos"><img src="{{photo}}"/></div>
+    <div class="gallery">
+        <div id="photo" ng-repeat="photo in portraits"><img src="{{photo}}"/></div>
+        <div id="photo" ng-repeat="photo in dfwphotos"><img src="{{photo}}"/></div>
+    </div>
+    <h2>Email me at <span>hey@jermaine.fyi</span> for pricing.</h2>
   </div>
-  <h2>Email me at <span>hey@jermaine.fyi</span> for pricing.</h2>
-</div>

@@ -53,14 +53,14 @@ module.exports=[
   {
     "title": "Branding for Obiant, Inc.",
     "caption": "Breaking down a brand identity project for a small NYC startup.",
-    "imageUrl": "assets/design/obiant.png",
+    "imageUrl": "assets/design/obiant.jpg",
     "clickthrough": "https://www.behance.net/gallery/36208149/Logo-and-Typeset-Commission-for-Obiant-Inc"
   },
     
   {
     "title": "$(datcode) branding and initial site design",
     "caption": "Branding for $(datcode) as well as developing launch site, creating promo material and stock photography.",
-    "imageUrl": "assets/design/datcode.png",
+    "imageUrl": "assets/design/datcode.jpg",
     "clickthrough": "https://www.behance.net/gallery/42391361/DatCode-Branding-Website-and-Promo-Material"
   }
 ]

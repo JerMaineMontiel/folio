@@ -316,8 +316,13 @@ footer{
   img{
     margin: 0 auto;
     padding-top: 10%;
-    max-width: 80%;
-    height: auto;
+    max-height: 80%;
+    width: auto;
+    
+    @media screen and (max-width: 414px){
+      max-width: 80%;
+      height: auto;
+    }
 
   }
 }

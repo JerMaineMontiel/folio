@@ -3,29 +3,20 @@ var jquery = require('jquery');
 var angular = require('angular');
 var designProjects = require('./design.json');
 
-var numPortraits = 19;
-var numDFW = 7;
+var numPhotos = 26;
 
 var folioApp = angular.module("folioApp", []);
 
 folioApp.controller('mainController', function($scope){
 
-    $scope.portraits = [];
-    $scope.dfwphotos = [];
+    $scope.photos = [];
     $scope.designProj = designProjects;
 
     var x = 1;
-    while( x <= numPortraits )
+    while( x <= numPhotos )
       {
-        $scope.portraits[x-1] = "assets/photos/portraits/" + x + ".jpg";
+        $scope.photos[x-1] = "assets/photos/" + x + ".jpg";
         x++;
-      }
-
-    var y = 1;
-    while( y <= numDFW )
-      {
-        $scope.dfwphotos[y-1] = "assets/photos/dfw/" + y + ".jpg";
-        y++;
       }
 });
 

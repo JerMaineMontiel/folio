@@ -24,8 +24,6 @@ github_username:  jermainemontiel
 ig_username: jermainemontiel
 
 # Build settings
-source: ./blog
-destination: ./blog/_site
 gems: [jekyll-paginate]
 markdown: kramdown
 paginate: 5

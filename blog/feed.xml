@@ -6,8 +6,8 @@
 </description>
     <link>/blog/</link>
     <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Sep 2016 17:57:37 -0500</pubDate>
-    <lastBuildDate>Fri, 23 Sep 2016 17:57:37 -0500</lastBuildDate>
+    <pubDate>Fri, 23 Sep 2016 18:08:34 -0500</pubDate>
+    <lastBuildDate>Fri, 23 Sep 2016 18:08:34 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -18,7 +18,7 @@
 
 &lt;p&gt;I started this blog to catalogue the work I’m doing on various projects, as a way to come back for reference and to keep those that care up to date with where I’m at. I’m gonna try and be as detailed and layman as I can. It’s gonna be real informal here; I’ll try my hardest not to bore you. Coding can get boring sometimes, especially when you’re constantly researching tools and plugins and methodologies for whatever it is you’re building. So having something that’s an entertaining read &lt;em&gt;and&lt;/em&gt; clear and to the point is always welcome.&lt;/p&gt;
 
-&lt;p&gt;And I’m welcoming to feedback! If I’m not doing these things, if something isn’t clear or have any questions just give me a shout by email or on &lt;a href=&quot;http://twitter.com/jmfyi&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;. (Twitter might be the quickest; I’m always on there)&lt;/p&gt;
+&lt;p&gt;And I’m welcoming to feedback! If I’m not doing these things, if something isn’t clear or have any questions just give me a shout by email at &lt;span&gt;hey@jermaine.fyi&lt;/span&gt; or on &lt;a href=&quot;http://twitter.com/jmfyi&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;. (Twitter might be the quickest; I’m always on there)&lt;/p&gt;
 
 &lt;p&gt;Alright, that’s it for this intro. In my first post I’ll be breaking down what it is I’m building, and why I made the choices I did. Hope you come back!&lt;/p&gt;
 </description>

@@ -11,18 +11,17 @@
   <!--SCRIPTS-->
   <script src="scripts/bundle.js" type="text/javascript"></script>
 </head>
+  <header>
+     <div id="logo"><img src="assets/logo.png"/></div>
+        <nav>
+          <a href="../">home</a>
+          <a href="../about/">about</a>
+          <a href="/">folio</a>
+        </nav>
+    </header>
 <body ng-controller="mainController">
   <div id="home">
-    <nav class="nav navbar-inverse navbar-fixed-top">
-      <ul class="nav navbar-nav">
-        <a class="navbar-brand" href="#/"><img src="../assets/logo.png"></a>
-        <li><a ng-click="scrollTo('resume')">DEVELOPER</a></li>
-        <li><a ng-click="scrollTo('photos')">PHOTOGRAPHER</a></li>
-        <li><a ng-click="scrollTo('design')">DESIGNER</a></li>
-      </ul>
-    </nav>
     <div id="header" class="container">
-      <img id="logo" src="assets/logo.png">
         <h1>
         HI, I'M JER'MAINE.<br>
         I THINK OF MYSELF AS A POLYMATH.</h1>

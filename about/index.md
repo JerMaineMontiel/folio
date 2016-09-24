@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Hi, hello. Welcome to my blog.
+layout: post
 ---
 I've been a software engineer for about four years now, though I can't say I've actually done much with that time. My first project I was on at my job, for three of those years, didn't have much new development that needed to be done. There were things here and there but they began to dwindle; all we had was bug fixes and the project began to ramp down into support mode. The number of engineers slowly decreased, getting loaned and transferred to other groups. I ended up leaving the project in June 2015 and started working with a new group but still haven't been doing much of coding. I figured I should start creating things on my own.
 

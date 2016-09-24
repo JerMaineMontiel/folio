@@ -1,7 +1,8 @@
 ---
+title: Hello World.
+date: '2016-09-23 00:00:00'
 layout: post
-title: "Hello World."
-summary: "Hang on to your butts!"
+summary: Hang on to your butts!
 tags: hello welcome
 ---
 Hey there. Glad you stopped by.

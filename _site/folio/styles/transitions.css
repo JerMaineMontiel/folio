@@ -1,0 +1,26 @@
+.page{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+@keyframes slideOut{
+  from { }
+	to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes slideIn{
+  from { transform: translateX(100%); }
+}
+
+.page.ng-enter{
+  animation: slideIn 0.3s ease-in both; 
+  z-index: 8888;
+}
+
+.page.ng-leave{
+  animation: slideOut 0.3s ease-in both; 
+  z-index: 9999;
+}

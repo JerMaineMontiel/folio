@@ -31,7 +31,7 @@ paginate_path: "/page:num/"
 defaults:
   -
     scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       layout: "post"

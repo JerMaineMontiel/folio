@@ -37,4 +37,4 @@ defaults:
       layout: "post"
       permalink: "/posts/:year/:month/:title"
       summary: ""
-      tags: ""
+      tags: []

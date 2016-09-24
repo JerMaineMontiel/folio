@@ -17,19 +17,16 @@ title: jm | blog
 email: hey@jermaine.fyi
 description: > # this means to ignore newlines until "baseurl:"
   My blog where I write about my coding (mis)adventures
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: #"http://jermaine.fyi" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url:  #"http://jermaine.fyi" # the base hostname & protocol for your site
 twitter_username: jmfyi
 github_username:  jermainemontiel
 
 # Build settings
-source: ./_blog
-destination: ./blog
-exclude: [css/modules/]
 gems: [jekyll-paginate]
 markdown: kramdown
 paginate: 5
-paginate_path: "/blog/page:num/"
+paginate_path: "/page:num/"
 defaults:
   -
     scope:

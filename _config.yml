@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" #"http://jermaine.fyi" # the base hostname & protocol for your site
 twitter_username: jmfyi
 github_username:  jermainemontiel
+ig_username: jermainemontiel
 
 # Build settings
 keep_files: [folio/]

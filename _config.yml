@@ -36,3 +36,5 @@ defaults:
     values:
       layout: "post"
       permalink: "/posts/:year/:month/:title"
+      summary: ""
+      tags: ""

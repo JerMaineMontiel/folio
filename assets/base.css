@@ -1,0 +1,9 @@
+body { background-color: #111111; color: #f4f4f4; }
+#skill { color: #01e3ae; }
+#tool { color: #03b8e2; }
+#project { color: #5734d6; }
+a { color: #e2d603; text-decoration-line: underline; }
+a:hover { color: #e25203; text-decoration-line: underline; }
+#divider { margin-top: 5vh; margin-bottom: 5vh; }
+img { padding-top: 5vh; padding-bottom: 5vh; }
+#hi { color: #f4f4f4; }
